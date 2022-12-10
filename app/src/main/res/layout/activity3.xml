@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/eq1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="_3x_2y_z_1"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/eq2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="_2x_2y_4z_2"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/eq3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="x_y_2_z_0"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/button_go_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Resolution"
+        />
+
+    <TextView
+        android:id="@+id/textView_resultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+</LinearLayout>
